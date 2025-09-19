@@ -1,0 +1,34 @@
+ 
+function Footer() {
+  return (
+    <footer id="contact" className="relative bottom-0  ">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-1  bg-gradient-to-b from-transparent to-purple-900/30 "></div>
+
+      {/* Footer Content */}
+      <div className="relative border-t border-gray-800/50 backdrop-blur-sm py-2 h-[91px]  w-[1957px] bg-black/50">
+        <div className="container mx-auto px-4 py-0">
+
+        
+       
+
+          {/* 👣 Footer Note */}
+          <div className="text-center space-y-2">
+            <div className="flex items-center justify-center space-x-2 text-sm text-gray-400">
+              <span>Created by</span>
+               
+              <span>
+                ANAND KUMAR AGRAHARI
+              </span>
+            </div>
+            <p className="text-sm text-gray-500">
+              © 2025<br />All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
