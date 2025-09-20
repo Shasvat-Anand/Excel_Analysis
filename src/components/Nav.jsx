@@ -36,12 +36,12 @@ function Nav() {
       <nav className="flex items-center px-[700px] md:px-[568px] justify-evenly sm:justify-between gap-[0px] md:gap-[180px]">
         <img className="h-[40px] w-auto" src={logo} alt="logo img" />
 
-        <ul className="hidden md:flex cursor-pointer font-Poppins items-center gap-12 bg-gradient-to-r from-[#0b541e] via-[#499c0a] to-[#0dff00] p-4 rounded-xl text-white">
+        <ul className="hidden md:flex cursor-pointer font-Poppins items-center gap-7 bg-gradient-to-r from-[#0b541e] via-[#499c0a] to-[#0dff00] p-4 rounded-xl text-white">
           <motion.li whileHover={{ scale: 1.2 }} transition={{ duration: 0.2 }}>
             <Link to="/">Home</Link>
           </motion.li>
           <motion.li whileHover={{ scale: 1.2 }} transition={{ duration: 0.2 }}>
-            <Link to="/services">Visualize Data</Link>
+            <Link to="/services" >Visualize Data</Link>
           </motion.li>
           <motion.li whileHover={{ scale: 1.2 }} transition={{ duration: 0.2 }}>
             <Link to="/about">Contact</Link>
@@ -53,7 +53,7 @@ function Nav() {
             to="/signup"
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.2 }}
-            className="rounded-full p-2 px-6 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow-lg hover:shadow-blue-500/50 hover:scale-105 transition duration-300 cursor-pointer"
+            className="rounded-2xl px-2 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow-lg hover:shadow-blue-500/50 hover:scale-105 transition duration-300 cursor-pointer"
           >
             Sign Up
           </MotionLink>

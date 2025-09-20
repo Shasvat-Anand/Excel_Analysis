@@ -4,10 +4,10 @@ import background from "../assets/background.jpg";
 // Contact.jsx
 export default function Contact() {
   const socials = [
-    { name: "Email", url: "mailto:you@yourdomain.com", icon: "📧" },
-    { name: "GitHub", url: "https://github.com/yourusername", icon: "💻" },
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourusername", icon: "🔗" },
-    { name: "Twitter", url: "https://twitter.com/yourusername", icon: "🐦" },
+    { name: "Email", url: "mailto:anandk84a@gmail.com", icon: "📧" },
+    { name: "GitHub", url: "https://github.com/Shasvat-Anand", icon: "💻" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/anand-agrahari-bit/", icon: "🔗" },
+    
   ];
 
   return (
