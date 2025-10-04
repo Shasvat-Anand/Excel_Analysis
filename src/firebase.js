@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database"; // ✅ use realtime db
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDVB-x7rF2X4ysK0jdgR_GeXnqgvb1R8io",
+   apikey:---
   authDomain: "excelanalysis-2106f.firebaseapp.com",
   databaseURL: "https://excelanalysis-2106f-default-rtdb.firebaseio.com",
   projectId: "excelanalysis-2106f",
@@ -18,3 +18,4 @@ const auth = getAuth(app);
 const db = getDatabase(app); // ✅
 
 export { auth, db };
+
